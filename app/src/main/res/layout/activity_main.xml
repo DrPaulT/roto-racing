@@ -1,0 +1,29 @@
+<FrameLayout
+    android:id="@+id/frame_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/lap_time_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="#40000000"
+        android:padding="8dp"
+        android:text="Lap: -"
+        android:textColor="@android:color/white"
+        android:textSize="24dp"/>
+
+    <TextView
+        android:id="@+id/best_time_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:background="#40000000"
+        android:padding="8dp"
+        android:text="Best: -"
+        android:textColor="@android:color/white"
+        android:textSize="24dp"/>
+
+</FrameLayout>

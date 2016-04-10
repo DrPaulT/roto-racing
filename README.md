@@ -11,3 +11,5 @@ A lap timer starts when you cross the start/finish line.  If you run off the roa
 and you will need to drive off in the other direction.
 
 The best lap time for the session is preserved until you leave the game.
+
+A video of the game is available:  https://www.youtube.com/watch?v=g-VLnURPMlU

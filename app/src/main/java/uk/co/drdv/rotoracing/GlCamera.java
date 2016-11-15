@@ -21,7 +21,8 @@ public class GlCamera implements SensorEventListener {
 
     public GlCamera(Context context, Car car) {
         sensorManager = (SensorManager) context.getSystemService(Context.SENSOR_SERVICE);
-        rotationSensor = sensorManager.getDefaultSensor(Sensor.TYPE_ROTATION_VECTOR);
+//        rotationSensor = sensorManager.getDefaultSensor(Sensor.TYPE_ROTATION_VECTOR);
+        rotationSensor = sensorManager.getDefaultSensor(Sensor.TYPE_GAME_ROTATION_VECTOR);
         this.car = car;
     }
 
